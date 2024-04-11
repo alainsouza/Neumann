@@ -52,7 +52,7 @@ const NavBar = () => {
                 }
                 
                 {menuOpen && (
-                    <div ref={menuRef} className="absolute top-full left-0 w-full bg-gray-dark text-white py-4 shadow-lg" style={{ borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
+                    <div ref={menuRef} className="absolute top-12 left-0 w-full bg-gray-dark text-white py-4 shadow-lg" style={{ borderBottomLeftRadius: 20, borderBottomRightRadius: 20 }}>
                     <ul className="flex flex-col items-start px-5 gap-4">
                         
                             <a href="#sobre" className="text-lg hover:text-gray-400 transition-colors duration-300 bg-[#383535] p-3 w-full rounded-md" onClick={handleItemClick}>
