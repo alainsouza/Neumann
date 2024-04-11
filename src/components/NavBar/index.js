@@ -30,7 +30,7 @@ const NavBar = () => {
         };
     }, []);
 
-    const whatsappNumber = 'https://api.whatsapp.com/send?phone=5561981789111&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20ter%20Neumann%20no%20meu%20evento!';
+    const whatsappNumber = 'https://api.whatsapp.com/send?phone=5561981789111&text=Ol%C3%A1,%20vim%20pelo%20site%20e%20quero%20ter%20Chopp%20Neumann%20no%20meu%20evento!';
 
     return (
         <section id="navBar">
