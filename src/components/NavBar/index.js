@@ -36,7 +36,7 @@ const NavBar = () => {
         <section id="navBar">
             {/* MOBILE */}
             <nav className="w-full flex items-center justify-between py-2 px-4 absolute top-0 lg:hidden bg-gray-dark" style={{ zIndex: 49 }}>
-                <img src={icon} alt="icon" className="w-10 h-auto" width="48" height="48" />
+                <img src={icon} alt="icon" className="w-10 h-auto" />
                 {
                     menuOpen ? (
                         <FiX
